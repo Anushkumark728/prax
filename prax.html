@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic HTML Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    header, footer { background-color: #f0f0f0; padding: 10px; }
+    nav a { margin: 0 10px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home Section</h2>
+      <p>This is a paragraph inside the home section. It contains <strong>bold</strong> and <em>italic</em> text, as well as a <a href="#">link</a>.</p>
+      <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+    </section>
+
+    <section id="about">
+      <h2>About Section</h2>
+      <ul>
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Intro</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form>
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" /><br/><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" /><br/><br/>
+
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message"></textarea><br/><br/>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
